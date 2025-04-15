@@ -5,17 +5,6 @@ const Hero = () => {
         <header className="w-full flex flex-col items-center justify-center">
             <nav className="w-full mb-10 pt-3 flex items-center justify-between">
                 <img src={logo} alt="logo" className="w-28 object-contain" />
-                <button
-                    className="black_btn"
-                    type="button"
-                    onClick={() =>
-                        window.open(
-                            "https://github.com/DitinAgrawal/summarizer"
-                        )
-                    }
-                >
-                    Github
-                </button>
             </nav>
 
             <h1 className="head_text">
